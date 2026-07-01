@@ -31,3 +31,4 @@ I am a junior undergraduate at the [AI Thrust](https://ait.hkust-gz.edu.cn/), [H
 I have been fortunate to work with Prof. Hao Liu, Prof. Hui Xiong, Prof. Enyan Dai, Prof. Sihong Xie, Prof. Chen Liang, and Prof. Junwei Liang across topics ranging from time-series agentic frameworks to event-camera sensor simulators, from AttnLRP on GPT-2 to EEG-based visual reconstruction on THINGS-EEG2.
 
 I am always open to discussing new ideas — feel free to reach out via email or GitHub.
+

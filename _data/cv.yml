@@ -1,189 +1,188 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Yuhan Chen
+  label: Undergraduate Researcher · AI Thrust, HKUST(GZ)
+  email: hyshello@gmail.com
+  location: Guangzhou, China
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Junior undergraduate at HKUST(GZ) AI Thrust. Research interests span event-based vision,
+    LLM agents & interpretability, and brain-to-image decoding.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: 3123738092
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Nansha, HKUST(GZ)
+    city: Guangzhou
+    region: Guangdong
+    postalCode: "511458"
+    countryCode: CN
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Hong Kong University of Science and Technology (Guangzhou)
+        location: Guangzhou, China
+        url: https://hkust-gz.edu.cn/
+        area: Artificial Intelligence Thrust
+        studyType: Bachelor of Artificial Intelligence
+        start_date: 2023-09
+        end_date: 2027-06
+        score: "MCGA 3.52 / 4.3"
+        courses: "Machine Learning (A), Introduction to Data Mining (A), Introduction to Embodied AI (A), Natural Language Processing (A), Python Programming for AI (A), Introduction to AI (A)"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - Expected graduation June 2027.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: HKUST(GZ) — Prof. Hao Liu
+        position: Research Assistant (TimeSeriesScientist Agentic Framework)
+        location: Guangzhou, China
+        start_date: 2026-01
+        end_date: Present
+        summary: Enhancing the TSci agentic framework for time-series forecasting.
         highlights:
-          - Relativity
-          - Description 2.
+          - Integrated advanced data augmentation and In-Context Learning into the agent to better handle missing data and irregular time series.
+          - Redesigned the Planner agent with Chain-of-Thought reasoning to improve interpretability of model selection.
+          - Enhanced the Reporter agent to turn complex statistical diagnostics and ensembles into human-readable narratives.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: HKUST(GZ) — Prof. Hui Xiong
+        position: Research Assistant (Hybrid Event Sensor Simulator)
+        location: Guangzhou, China
+        start_date: 2025-06
+        end_date: 2025-12
+        summary: Built a physically-grounded event-camera noise simulator.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Systematically collected scene datasets under zero-lux, strong exposure, and high-contrast scenes to analyze noise behavior.
+          - Implemented EVS noise-model components including Q-function event-probability estimation and intensity-to-voltage domain mapping.
+          - Evaluated simulator realism by fine-tuning TimeLens and EFNet on synthetic data.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: HKUST(GZ) — Prof. Hui Xiong
+        position: Research Assistant (Badminton Motion Analysis via Event Camera)
+        location: Guangzhou, China
+        start_date: 2025-06
+        end_date: 2025-09
+        summary: High-speed motion analysis in badminton using event cameras.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - Adapted SOTA models by integrating their structural merits into a custom framework.
+          - Modified gradient backpropagation and migrated core numerical modules to enable end-to-end differentiability.
+          - Refined dataset construction and DataLoader architectures for diverse input modalities.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Multi-Skill Pipeline for Daily Paper Briefings
+        summary: "Advisor: Prof. Enyan Dai, HKUST(GZ). Orchestrator + Skills architecture for daily arXiv briefings."
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Designed an Orchestrator + Skills architecture; skills communicate only through versioned JSON files under shared_data, keeping modules fully decoupled.
+          - Implemented arxiv_agent.py with serial pipeline execution, idempotent re-runs, and fast-fail short-circuit when the data-collector returns zero papers.
+          - Built the data-collector skill — arXiv fetching, metadata extraction, 384-dim MiniLM embeddings, and construction of cosine-similarity paper and co-author graphs used by the downstream ranker.
+        start_date: 2026-02
+        end_date: 2026-05
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Explanations of LLM — AttnLRP on GPT-2
+        summary: "Advisor: Prof. Sihong Xie, HKUST(GZ). Attribution-based interpretability for GPT-2."
+        highlights:
+          - Set up the lxt AttnLRP framework via an efficient monkey-patch on GPT-2, establishing the shared code pipeline for the project.
+          - Designed three visualization tools that surfaced GPT-2's negative-logit sign-flip artifact in AttnLRP.
+          - Co-developed the contrastive-gradient masking fix that restored correct relevance signs.
+        start_date: 2025-03
+        end_date: 2025-06
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Brain-to-Image Retrieval & Reconstruction on THINGS-EEG2
+        summary: "Advisor: Prof. Chen Liang, HKUST(GZ). EEG-based visual decoding with hierarchical features."
+        highlights:
+          - Designed the Hierarchical Visual Features (HVF) pipeline fusing CLIP RN50, CLIP ViT-B/32, and the Stable Diffusion VAE into a single regression target for the EEG encoder.
+          - Replaced plain-sum fusion with a sigmoid-gated fusion (bias init +3.0) — materially improved Top-5 / Top-10 / Mean Rank.
+          - Added a fourth encoder (DINOv2 ViT-S/14 fine-tuned on Depth Anything V2) to inject a 3D/depth prior missing from purely semantic features.
+        start_date: 2026-02
+        end_date: 2026-05
+
+      - name: Social Navigation with 3D Simulator (Habitat)
+        summary: "Advisor: Prof. Junwei Liang, HKUST(GZ). Embodied social navigation policies in Habitat Lab."
+        highlights:
+          - Developed and optimized social navigation policies for embodied agents in Habitat Lab.
+          - Tuned PPO training and robot configuration (navigation, sensing, action) for improved policy performance.
+          - Added custom penalty mechanisms (orientation alignment, path-overlap) in the metrics modules to significantly improve agent behavior.
+        start_date: 2025-08
+        end_date: 2025-12
+
+    Awards:
+      - title: Ascend AI Innovation Contest Season 8 (Atlas 910B) — Outstanding Prize
+        authors:
+          - Huawei
+        date: 2026-06
+        awarder: Huawei
+        summary: >
+          National competition organized by Huawei. Implemented Scale and Atanh operators as custom AI Core kernels in Ascend C
+          using msopgen-generated op_host (Tiling + InferShape + prototype registration) and op_kernel projects on the Atlas 910B (aarch64).
+          Designed generalized tiling covering 1D/2D/4D/6D inputs with non-32-aligned tail handling, and used dispatch to specialize
+          kernels per dtype (fp16 / bf16 / fp32) and shape regime.
+
+      - title: MIPI Challenge — Deblurring for HVS/HybridEVS Camera (Rank 6 / 130)
+        date: 2025-07
+        awarder: MIPI-challenge
+        summary: >
+          International competition. Revised gradient backpropagation, migrated core numerical modules from NumPy to PyTorch for
+          end-to-end differentiability. Applied deblurring-specific models (EFNet, ESL) to enhance restoration quality.
+
+      - title: 2024 Mecha Master University Alliance Competition (Southwest Region) — Top 8
+        date: 2024-02
+        awarder: Mecha Master
+        summary: >
+          Top 8 in infantry confrontation. Self-taught SolidWorks; designed and modeled mechanical parts; fabricated custom parts
+          on 3D printers and lathes; coordinated with the electrical-control team on wiring and system integration.
+
+    Skills:
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, C++, SQL"
+
+      - name: Deep Learning
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, scikit-learn, Transformers, attention, prompt engineering"
+
+      - name: LLM Applications
+        level: Intermediate
+        icon: fa-solid fa-comments
+        keywords: "CoT, ReAct, RAG, SFT, LoRA, PEFT"
+
+      - name: Tooling
+        level: Advanced
+        icon: fa-solid fa-terminal
+        keywords: "Linux, Git, GitHub, model integration, optimization, deployment, open-source reproduction"
+
+    Languages:
+      - name: Chinese (Mandarin)
+        summary: Native speaker
+
+      - name: English
+        summary: Fluent — reads academic papers and technical documentation
+
+    Interests:
+      - name: Event-based Vision
+        icon: fa-solid fa-camera
+        keywords: "event cameras, deblurring, video interpolation, HVS/HybridEVS"
+
+      - name: LLM Interpretability & Agents
+        icon: fa-solid fa-magnifying-glass-chart
+        keywords: "AttnLRP, attribution, agentic frameworks, CoT reasoning"
+
+      - name: Brain-Computer Interfaces
+        icon: fa-solid fa-brain
+        keywords: "EEG, THINGS-EEG2, brain-to-image reconstruction"
+
+    Volunteer:
+      - company: Minxin Hong Kong School
+        position: Teaching Assistant
+        location: China
+        summary: Supported classroom management, student guidance, and educational activity organization.
+
+      - company: 4th-grade Primary School
+        position: English-only Tutor
+        location: China
+        summary: Delivered full-English instruction to enhance students' language proficiency and academic performance.
+
+      - company: RC2 Community 3 · Youth League Branch
+        position: Organization Committee Member
+        location: HKUST(GZ)
+        summary: Organized league activities, coordinated member participation, and promoted branch development.

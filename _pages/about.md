@@ -26,9 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a junior undergraduate at the [AI Thrust](https://ait.hkust-gz.edu.cn/), [Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/), expected to graduate in June 2027. My research interests span **event-based vision**, **LLM agents and interpretability**, and **brain-to-image decoding**.
+I am a junior undergraduate at the [AI Thrust](https://ait.hkust-gz.edu.cn/), [Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/), expected to graduate in June 2027. My research interests center on **event-based vision** and **LLM agents and interpretability** — from how bio-inspired sensors capture dynamic scenes, to how we can explain, steer, and orchestrate large language models.
 
-I have been fortunate to work with Prof. Hao Liu, Prof. Hui Xiong, Prof. Enyan Dai, Prof. Sihong Xie, Prof. Chen Liang, and Prof. Junwei Liang across topics ranging from time-series agentic frameworks to event-camera sensor simulators, from AttnLRP on GPT-2 to EEG-based visual reconstruction on THINGS-EEG2.
+I have been fortunate to work with Prof. Hao Liu, Prof. Hui Xiong, Prof. Enyan Dai, Prof. Sihong Xie, Prof. Chen Liang, and Prof. Junwei Liang, on projects spanning time-series agentic frameworks, event-camera sensor simulation, and attribution-based interpretability (AttnLRP) for GPT-2.
 
 I am always open to discussing new ideas — feel free to reach out via email or GitHub.
 

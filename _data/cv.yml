@@ -32,95 +32,84 @@ cv:
         courses: "Machine Learning (A), Introduction to Data Mining (A), Introduction to Embodied AI (A), Natural Language Processing (A), Python Programming for AI (A), Introduction to AI (A), etc."
 
     Research Experience:
-      - company: Enhancement of the TimeSeriesScientist (TSci) Agentic Framework
-        position: "Supervisor: Prof. Hao Liu, AI Thrust, HKUST(GZ)"
-        start_date: 2026-01
-        end_date: Present
-        highlights:
+      - bullet: |
+          **Enhancement of the TimeSeriesScientist (TSci) Agentic Framework** — Jan. 2026 – Present<br>
+          *Supervisor: Prof. Hao Liu, AI Thrust, HKUST(GZ)*
+
           - Integrated advanced data augmentation and In-Context Learning capabilities into the agent to enhance the handling of missing data and irregular time series.
           - Redesigned the Planner agent by incorporating Chain-of-Thought (CoT) reasoning to significantly improve the interpretability and transparency of the model selection process.
           - Enhanced the Reporter agent to synthesize complex statistical diagnostics and ensemble results into intuitive, human-readable narratives.
 
-      - company: Building a Hybrid Event Sensor Simulator
-        position: "Supervisor: Prof. Hui Xiong, AI Thrust, HKUST(GZ)"
-        start_date: 2025-06
-        end_date: 2025-12
-        highlights:
+      - bullet: |
+          **Building a Hybrid Event Sensor Simulator** — June 2025 – Dec. 2025<br>
+          *Supervisor: Prof. Hui Xiong, AI Thrust, HKUST(GZ)*
+
           - Systematically collected scene datasets under zero-lux, strong light exposure, and high-contrast scenes to analyze the noise behavior.
           - Implemented components of the EVS noise model, including event-probability estimation using the Q-function and intensity-to-voltage domain mapping.
           - Evaluated simulator realism by fine-tuning state-of-the-art video interpolation and deblurring models (e.g., TimeLens, EFNet) on synthetic data.
 
-      - company: High-Speed Motion Analysis in Badminton via Event Camera
-        position: "Supervisor: Prof. Hui Xiong, AI Thrust, HKUST(GZ)"
-        start_date: 2025-06
-        end_date: 2025-09
-        highlights:
+      - bullet: |
+          **High-Speed Motion Analysis in Badminton via Event Camera** — June 2025 – Sep. 2025<br>
+          *Supervisor: Prof. Hui Xiong, AI Thrust, HKUST(GZ)*
+
           - Adapted state-of-the-art models by integrating their structural merits into a custom-designed framework.
           - Modified gradient backpropagation functions in the training pipeline and migrated core numerical computation modules to enable end-to-end gradient differentiability.
           - Refined dataset construction and DataLoader architectures to enhance compatibility with diverse input modalities.
 
     Project Experience:
-      - name: Multi-Skill Pipeline for Daily Paper Briefings
-        summary: "Supervisor: Prof. Enyan Dai, AI Thrust, HKUST(GZ)"
-        start_date: 2026-02
-        end_date: 2026-05
-        highlights:
+      - bullet: |
+          **Multi-Skill Pipeline for Daily Paper Briefings** — Feb. 2026 – May 2026<br>
+          *Supervisor: Prof. Enyan Dai, AI Thrust, HKUST(GZ)*
+
           - Designed an "Orchestrator + Skills" architecture in which skills communicate only through versioned JSON files under shared_data, keeping modules fully decoupled.
           - Implemented the unified orchestrator arxiv_agent.py with serial pipeline execution, idempotent re-runs, and fast-fail short-circuit when the data-collector returns zero papers.
           - Built the data-collector skill — arXiv paper fetching, metadata extraction, 384-dim MiniLM embedding generation, and construction of the cosine-similarity paper graph and co-author graph consumed by the downstream ranker.
 
-      - name: Explanations of LLM — AttnLRP on GPT-2
-        summary: "Supervisor: Prof. Sihong Xie, AI Thrust, HKUST(GZ)"
-        start_date: 2025-03
-        end_date: 2025-06
-        highlights:
+      - bullet: |
+          **Explanations of LLM — AttnLRP on GPT-2** — Mar. 2025 – June 2025<br>
+          *Supervisor: Prof. Sihong Xie, AI Thrust, HKUST(GZ)*
+
           - Set up the lxt AttnLRP framework via an efficient monkey-patch implementation on GPT-2, establishing the code pipeline shared by the whole project.
           - Designed three visualization tools which surfaced GPT-2's negative-logit sign-flip artifact in AttnLRP, and co-developed the contrastive-gradient masking fix that restored correct relevance signs.
 
-      - name: Brain-to-Image Retrieval & Reconstruction on THINGS-EEG2
-        summary: "Supervisor: Prof. Chen Liang, AI Thrust, HKUST(GZ)"
-        start_date: 2026-02
-        end_date: 2026-05
-        highlights:
+      - bullet: |
+          **Brain-to-Image Retrieval & Reconstruction on THINGS-EEG2** — Feb. 2026 – May 2026<br>
+          *Supervisor: Prof. Chen Liang, AI Thrust, HKUST(GZ)*
+
           - Designed the Hierarchical Visual Features (HVF) pipeline, fusing CLIP RN50, CLIP ViT-B/32, and the Stable Diffusion VAE into a single regression target for the downstream EEG encoder.
           - Replaced plain-sum fusion with a sigmoid-gated fusion (bias init +3.0), letting the model learn to attenuate unhelpful encoders — materially improved Top-5 / Top-10 / Mean Rank.
           - Added a fourth encoder (DINOv2 ViT-S/14 fine-tuned on Depth Anything V2) to inject a 3D/depth prior missing from purely semantic features.
 
-      - name: Social Navigation with 3D Simulator
-        summary: "Supervisor: Prof. Junwei Liang, AI Thrust, HKUST(GZ)"
-        start_date: 2025-08
-        end_date: 2025-12
-        highlights:
+      - bullet: |
+          **Social Navigation with 3D Simulator** — Aug. 2025 – Dec. 2025<br>
+          *Supervisor: Prof. Junwei Liang, AI Thrust, HKUST(GZ)*
+
           - Developed and optimized social navigation policies for embodied agents in Habitat Lab, with a solid understanding of embodied perception and robot-environment interaction in complex simulated scenes.
           - Tuned PPO training pipelines and robot-related configuration parameters, including navigation, sensing, and action settings, to improve policy and task performance.
           - Enhanced agent performance significantly by incorporating custom penalty mechanisms in the metrics modules, including orientation-alignment and path-overlap penalties.
 
     Competition and Awards:
-      - title: Ascend AI Innovation Contest Season 8 (Atlas 910B) — Outstanding Prize
-        date: 2026-06
-        awarder: Huawei
-        summary: >
-          National competition organized by Huawei. Implemented the Scale and Atanh operators as custom AI Core kernels in Ascend C,
-          using msopgen-generated op_host (Tiling + InferShape + prototype registration) and op_kernel projects targeting the
-          Atlas 910B (aarch64) platform. Designed generalized tiling strategies covering arbitrary-rank inputs (1D / 2D / 4D / 6D)
-          with non-32-aligned tail handling, and used dispatch to specialize kernels per dtype (fp16 / bf16 / fp32) and shape regime.
+      - bullet: |
+          **Ascend AI Innovation Contest Season 8 (Atlas 910B)** — June 2026<br>
+          *National competition organized by Huawei; awarded Outstanding Prize.*
 
-      - title: Deblurring for HVS/HybridEVS Camera @ MIPI Challenge — Rank 6 / 130
-        date: 2025-07
-        awarder: MIPI Challenge
-        summary: >
-          International competition; ranked 6th over 130 participants worldwide. Revised gradient backpropagation components within
-          the training framework — migrated core numerical computation modules from NumPy to PyTorch, establishing end-to-end
-          gradient differentiability. Applied novel deblurring-specific models (EFNet, ESL) to enhance restoration performance
-          for blurred visual content.
+          - Implemented the Scale and Atanh operators as custom AI Core kernels in Ascend C, using msopgen-generated op_host (Tiling + InferShape + prototype registration) and op_kernel projects targeting the Atlas 910B (aarch64) platform.
+          - Designed generalized tiling strategies covering arbitrary-rank inputs (1D / 2D / 4D / 6D) with non-32-aligned tail handling, and used dispatch technology to specialize kernels per dtype (fp16 / bf16 / fp32) and shape regime.
 
-      - title: 2024 Mecha Master University Alliance Competition (Southwest Region) — Top 8
-        date: 2024-02
-        awarder: Mecha Master
-        summary: >
-          National university-level competition; placed top 8 in the infantry confrontation. Self-taught SolidWorks to independently
-          design and model mechanical parts and assembly structures; fabricated custom parts using 3D printers and lathes; collaborated
-          closely with the electrical-control team on wiring and electrical integration to ensure seamless system functionality.
+      - bullet: |
+          **Deblurring for HVS/HybridEVS Camera @ MIPI Challenge** — July 2025<br>
+          *International competition; Rank 6 over 130 participants worldwide.*
+
+          - Revised the gradient backpropagation components within the training framework — migrated core numerical computation modules from NumPy to PyTorch, establishing end-to-end gradient differentiability.
+          - Applied novel deblurring-specific models (EFNet, ESL) to tackle image deblurring tasks, leveraging their specialized architectures to enhance restoration performance for blurred visual content.
+
+      - bullet: |
+          **2024 Mecha Master University Alliance Competition (Southwest Region)** — Feb. 2024<br>
+          *National university-level competition; placed top 8 in the infantry confrontation competition.*
+
+          - Proficiently acquired SolidWorks skills through self-directed learning, independently designing and modeling mechanical parts and assembly structures.
+          - Fabricated custom parts using 3D printers and lathes, ensuring precision in physical component production.
+          - Collaborated closely with the electrical-control team to coordinate wiring and electrical integration, resolving technical issues to ensure seamless system functionality.
 
     Skills:
       - name: Programming Languages
@@ -156,18 +145,7 @@ cv:
         keywords: "proficient; reads academic papers and technical documentation"
 
     Extracurricular Activities:
-      - company: 4th-Grade Primary School
-        position: English-only Tutor
-        summary: Delivered full-English instruction to enhance students' language proficiency and academic performance.
-
-      - company: Minxin Hong Kong School
-        position: Teaching Assistant
-        summary: Supported classroom management, student guidance, and educational activity organization.
-
-      - company: Youth League Branch, RC2 Community 3, HKUST(GZ)
-        position: Organization Committee Member
-        summary: Organized league activities, coordinated member participation, and promoted branch development.
-
-      - company: Yunzhou Intelligence · DJI · BYD
-        position: Enterprise Observational Visits
-        summary: Gained insights into advanced technologies, industrial operations, and corporate innovation practices through visits to leading enterprises.
+      - bullet: Served as an English-only tutor for 4th-grade primary school students, delivering full-English instruction to enhance their language proficiency and academic performance.
+      - bullet: Worked as a teaching assistant at Minxin Hong Kong School, supporting classroom management, student guidance, and educational activity organization.
+      - bullet: Held the position of Organization Committee Member in the Youth League Branch of RC2 Community 3, responsible for organizing league activities, coordinating member participation, and promoting branch development.
+      - bullet: Participated in observational visits to leading enterprises including Yunzhou Intelligence, DJI, and BYD, gaining insights into advanced technologies, industrial operations, and corporate innovation practices.

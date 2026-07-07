@@ -6,6 +6,8 @@ subtitle: Undergraduate Researcher · AI Thrust, <a href='https://hkust-gz.edu.c
 
 profile:
   align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>AI Thrust, HKUST(GZ)</p>
     <p>Guangzhou, China</p>
